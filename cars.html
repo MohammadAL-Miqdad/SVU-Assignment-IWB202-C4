@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-4.0.0.min.js"></script>
+<!--<script>console.log(typeof jQuery)</script>-->
+<script src="./script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+            <nav class="navbar">
+            <ul class="ul">
+                <li><a href="index.html" class="a">الرئيسية</a></li>
+                <li><a href="aboutus.html" class="a">من نحن</a></li>
+                <li><a href="cars.html" class="a">السيارات و الحجز</a></li>
+            </ul>
+            </nav>
+        </header>
+
+    <div class="continer">
+        <div class="h1"><h1>السيارات المتاحة للاستئجار</h1>
+             <p>اختر السيارة المناسبة ثم اضغط<<متابعة>>.</p>        
+    </div>
+
+        <table class="table3">
+            <tr>
+        <th class="th">الرمز</th>
+        <th class="th">الموديل</th>
+        <th class="th">سنة الصنع</th>
+        <th class="th">سعر الاجار اليومي</th>
+        <th class="th">التفاصيل</th>
+        <th class="th">إختيار</th>
+           </tr>
+
+    <tr>
+        <td class="id-cr">CR-001</td>
+        <td>Toyota Corolla</td>
+        <td>2023</td>
+        <td><span class="span">7,500</span> ل.س.ج</td>
+        <td><input type="checkbox" class="details"></td>
+        <td><input  type="checkbox" class="check" name="" id="check"></td>
+    </tr>
+    <tr class="car-details" style="display:  none;">
+        <td colspan="6">
+            <div id="cont-car">
+            <div class="img-cars"><img class="img" src="cars-image\corola.jpeg" alt=""></div>
+            <div class="cont">
+          <div class="dezel"> 
+          <span class="dzl-icon">⛽</span> 
+         <div class="info-text">
+          <span class="l">نوع الوقود</span>
+          <span class="p">بنزين</span>
+          </div>
+          </div>
+           <div class="dezel"> 
+          <span class="dzl-icon">⚙️</span> 
+         <div class="info-text">
+          <span class="l">ناقل الحركة</span>
+          <span class="p">أوتوماتيك</span>
+          </div>
+          </div>
+            <div class="dezel"> 
+          <span class="dzl-icon">💺</span> 
+         <div class="info-text">
+          <span class="l">عدد المقاعد</span>
+          <span class="p">مقاعد 5</span>
+          </div>
+          </div>
+             <div class="dezel"> 
+          <span class="dzl-icon">🛣️</span> 
+         <div class="info-text">
+          <span class="l">عداد الكيلومترات</span>
+          <span class="p">12,500</span>
+          </div>
+          </div>
+          
+                <div class="dezel"> 
+          <span class="dzl-icon">🎨</span> 
+         <div class="info-text">
+          <span class="l">لون السيارة</span>
+          <span class="p">black</span>
+          </div>
+          </div>
+          </div>
+          </div>
+          
+        </td>
+    </tr>
+    <tr>
+        <td class="id-cr">CR-002</td>
+        <td>Kia Sportage</td>
+        <td>2022</td>
+         <td><span class="span">6,000</span> ل.س.ج</td>
+         <td><input type="checkbox" class="details" name="" id=""></td>
+        <td><input type="checkbox" class="check" name="" id=""></td>
+    </tr>
+
+    <tr class="car-details" style="display: none;">
+        <td colspan="6">
+               <div id="cont-car">
+                <div class="img-cars"><img class="img" src="cars-image\sportag.jpeg" alt=""></div>
+                <div class="cont">
+          <div class="dezel"> 
+          <span class="dzl-icon">⛽</span> 
+         <div class="info-text">
+          <span class="l">نوع الوقود</span>
+          <span class="p">بنزين</span>
+          </div>
+          </div>
+           <div class="dezel"> 
+          <span class="dzl-icon">⚙️</span> 
+         <div class="info-text">
+          <span class="l">ناقل الحركة</span>
+          <span class="p">أوتوماتيك</span>
+          </div>
+          </div>
+            <div class="dezel"> 
+          <span class="dzl-icon">💺</span> 
+         <div class="info-text">
+          <span class="l">عدد المقاعد</span>
+          <span class="p">مقاعد 5</span>
+          </div>
+          </div>
+             <div class="dezel"> 
+          <span class="dzl-icon">🛣️</span> 
+         <div class="info-text">
+          <span class="l">عداد الكيلومترات</span>
+          <span class="p">30,000</span>
+          </div>
+          </div>
+                <div class="dezel"> 
+          <span class="dzl-icon">🎨</span> 
+         <div class="info-text">
+          <span class="l">لون السيارة</span>
+          <span class="p">Brown</span>
+          </div>
+          </div>
+          </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="id-cr">CR-003</td>
+        <td>Hyundai Elantra</td>
+        <td>2024</td>
+        <td><span class="span">9,500</span> ل.س.ج</td>
+        <td><input type="checkbox" class="details" name="" id=""></td>
+        <td><input type="checkbox" class="check" name="" id=""></td>
+        
+
+
+    </tr>
+    <tr class="car-details" style="display: none">
+               <td colspan="6">
+               <div id="cont-car">
+                <div class="img-cars"><img class="img" src="cars-image\ilantra.jpeg" alt=""></div>
+                <div class="cont">
+          <div class="dezel"> 
+             
+          <span class="dzl-icon">⛽</span> 
+         <div class="info-text">
+          <span class="l">نوع الوقود</span>
+          <span class="p">بنزين</span>
+          </div>
+          </div>
+           <div class="dezel"> 
+          <span class="dzl-icon">⚙️</span> 
+         <div class="info-text">
+          <span class="l">ناقل الحركة</span>
+          <span class="p">أوتوماتيك</span>
+          </div>
+          </div>
+            <div class="dezel"> 
+          <span class="dzl-icon">💺</span> 
+         <div class="info-text">
+          <span class="l">عدد المقاعد</span>
+          <span class="p">مقاعد 5</span>
+          </div>
+          </div>
+             <div class="dezel"> 
+          <span class="dzl-icon">🛣️</span> 
+         <div class="info-text">
+          <span class="l">عداد الكيلومترات</span>
+          <span class="p">25,000</span>
+          </div>
+          </div>
+                <div class="dezel"> 
+          <span class="dzl-icon">🎨</span> 
+         <div class="info-text">
+          <span class="l">لون السيارة</span>
+          <span class="p">Silver</span>
+          </div>
+          </div>
+          </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="id-cr">CR-004</td>
+        <td>Chevrolet Spark</td>
+        <td>2021</td>
+        <td><span class="span">5,000</span> ل.س.ج</td>
+        <td><input type="checkbox" class="details" name="" id=""></td>
+        <td><input type="checkbox" class="check"  name="" id=""></td>
+    </tr>
+    
+    <tr class="car-details" style="display: none;">
+        <td colspan="6">
+               <div id="cont-car">
+                 <div class="img-cars"><img class="img" src="cars-image\spark.jpg" alt=""></div>
+                 <div class="cont">
+          <div class="dezel"> 
+          <span class="dzl-icon">⛽</span> 
+         <div class="info-text">
+          <span class="l">نوع الوقود</span>
+          <span class="p">بنزين</span>
+          </div>
+          </div>
+           <div class="dezel"> 
+          <span class="dzl-icon">⚙️</span> 
+         <div class="info-text">
+          <span class="l">ناقل الحركة</span>
+          <span class="p">أوتوماتيك</span>
+          </div>
+          </div>
+            <div class="dezel"> 
+          <span class="dzl-icon">💺</span> 
+         <div class="info-text">
+          <span class="l">عدد المقاعد</span>
+          <span class="p">مقاعد 4</span>
+          </div>
+          </div>
+             <div class="dezel"> 
+          <span class="dzl-icon">🛣️</span> 
+         <div class="info-text">
+          <span class="l">عداد الكيلومترات</span>
+          <span class="p">45,000</span>
+          </div>
+          </div>
+                <div class="dezel"> 
+          <span class="dzl-icon">🎨</span> 
+         <div class="info-text">
+          <span class="l">لون السيارة</span>
+          <span class="p">Red</span>
+          </div>
+          </div>
+          </div>
+        </td>
+    </tr>
+
+    <tr>
+           <td class="id-cr">CR-005</td>
+        <td>Kia Rio</td>
+        <td>2018</td>
+        <td><span class="span">3,500</span> ل.س.ج</td>
+        <td><input type="checkbox" class="details" name="" id=""></td>
+        <td><input type="checkbox" class="check" name="" id=""></td>
+    </tr>
+    
+    <tr class="car-details" style="display: none;">
+        <td colspan="6">
+              <div id="cont-car">
+                 <div class="img-cars"><img class="img" src="cars-image\rio.jpeg" alt=""></div>
+                 <div class="cont">
+          <div class="dezel"> 
+          <span class="dzl-icon">⛽</span> 
+         <div class="info-text">
+          <span class="l">نوع الوقود</span>
+          <span class="p">بنزين</span>
+          </div>
+          </div>
+           <div class="dezel"> 
+          <span class="dzl-icon">⚙️</span> 
+         <div class="info-text">
+          <span class="l">ناقل الحركة</span>
+          <span class="p">يدوي</span>
+          </div>
+          </div>
+            <div class="dezel"> 
+          <span class="dzl-icon">💺</span> 
+         <div class="info-text">
+          <span class="l">عدد المقاعد</span>
+          <span class="p">مقاعد 4</span>
+          </div>
+          </div>
+             <div class="dezel"> 
+          <span class="dzl-icon">🛣️</span> 
+         <div class="info-text">
+          <span class="l">عداد الكيلومترات</span>
+          <span class="p">85,000</span>
+          </div>
+          </div>
+                <div class="dezel"> 
+          <span class="dzl-icon">🎨</span> 
+         <div class="info-text">
+          <span class="l">لون السيارة</span>
+          <span class="p">Blue</span>
+          </div>
+          </div>
+          </div>
+        </td>
+    </tr>
+</table>
+
+   <button class="btn-next" id="btn1" disabled onclick="showAndScroll()">متابعة الحجز&larr;</button>
+
+
+                     <!--mohammad_427223-->
+     <div id="div1" dir="rtl"> 
+        <h1>بيانات المستأجر</h1>
+        <form id="form">
+        <div class="divs">
+            <label for="fulname">أدخل أسمك الكامل:</label>
+            <input type="text" id="" pattern="[\u0600-\u06ff\s]+$" title="الرجاء إدخال أحرف عربية فقط!" placeholder="أدخل الأسم باللغة العربية">
+        </div>
+
+        <div class="divs">
+             <label for="nationalid">الرقم الوطني:</label>
+            <input type="text" id="nationalid" pattern="^(0[1-9]|1[0-4])[0-9]{9}$"
+            maxlength="11"
+            title="يجب أن يبدأ الرقم الوطني برقم من 01الى14 ويتكون من 11 رقم!" required>
+        </div>
+
+        <div class="divs">
+             <label for="startdate">تاريخ بداية التأجير:</label>
+            <input type="date" id="startdate" required>
+        </div>
+
+        <div class="divs">
+            <label for="enddate">تاريخ نهاية التأجير:</label>
+            <input type="date" id="enddate" required>
+            
+        </div>
+
+        <div class="divs">
+             <label for="fulname">رقم الجوال:</label>
+            <input type="tel" id="tel" pattern="09[345689][0-9]{7}$"
+            maxlength="10"
+            title="يجب أن يكون الرقم المدخل مطابقاً لأرقام شركتي MTNوsyreatel وأن يتكون من 10 أرقام!"
+            placeholder="09....">
+        </div>
+
+        <div class="divs">
+             <label for="">البريد الألكتروني:</label>
+            <input type="email" id="mail" placeholder="example@email.com">
+            </div>
+            <button type="submit" class="btn2" id="confirmBtn">تأكيد الحجز</button>
+
+        </form>
+    </div>
+    </div>
+</body>
+</html>

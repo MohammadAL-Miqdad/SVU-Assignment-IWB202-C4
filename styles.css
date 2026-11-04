@@ -1,0 +1,442 @@
+body {
+  background-color: #ededed;
+  color: #333333;
+  direction: rtl;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: darkslategray;
+  text-align: right;
+}
+.h2-icon {
+  margin-left: 5px;
+  color: #f8bd19;
+}
+.table-icon {
+  margin-left: 5px;
+  color: #f8bd19;
+}
+.Explorer-icon {
+  color: #2b6cb6;
+  margin-left: 5px;
+}
+.Note-icon {
+  color: #ff9f1c;
+  margin-left: 5px;
+}
+.marck-icon {
+  margin-left: 5px;
+  color: #28a745;
+  font-size: 12px;
+}
+.header {
+  position: relative;
+  margin-top: -8px;
+  margin-right: -8px;
+  width: calc(100% + 16px);
+  background: linear-gradient(#9c9b9b, #3a3a3a);
+  padding: 5px;
+  text-align: center;
+}
+.navbar {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links {
+  color: #ffffff;
+  font-size: 1px;
+  font-weight: bold;
+}
+.ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.a:hover {
+  color: #f1c40f;
+}
+a:active {
+  color: #f1c40f;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+.continer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  border-bottom: 5px solid #022560;
+  box-sizing: border-box;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+.l1 {
+  color: #1a365d;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  border-right: 4px solid #2b6cb0;
+  padding-right: 10px;
+}
+.table1 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.table1 th {
+  background: linear-gradient(to left, #3b82f6, #1e40af);
+  color: #ffffff;
+  padding: 14px 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+}
+.table1 td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #4a5568;
+  font-size: 0.95rem;
+  text-align: center;
+  border: none;
+}
+.table1 th,
+td {
+  border: none;
+}
+.table1 tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+.table1 tr:hover {
+  background-color: #dbdddf;
+  transition: background 0.2s ease;
+}
+.nn {
+  background-color: #edf2f7;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border-right: 5px solid #2b6cb6;
+}
+.nm {
+  background-color: #edf2f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-right: 5px solid #e48e2a;
+}
+.mm {
+  list-style-type: none;
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #4a5568;
+}
+
+/*تنسيق صفحة من نحن*/
+
+.h2 {
+  color: teal;
+}
+p a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+p a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+.p1 {
+  background-color: #edf2f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-right: 5px solid #2b6cb6;
+}
+.p2 {
+  background-color: #edf2f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-right: 5px solid #2b6cb6;
+}
+
+.p2-ul {
+  list-style-type: none;
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #4a5568;
+}
+.p3 {
+  background-color: #edf2f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-right: 5px solid #2b6cb6;
+}
+.p3-ul {
+  list-style: none;
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #4a5568;
+}
+.p3-icon {
+  margin-left: 10px;
+}
+.table2 {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.table2 th {
+  background: linear-gradient(to left, #3b82f6, #1e40af);
+  color: #ffffff;
+  padding: 14px 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+}
+.table2 td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #4a5568;
+  font-size: 0.95rem;
+  text-align: center;
+  border: none;
+}
+.table2 th,
+td {
+  border: none;
+}
+.table2 tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+.table2 tr:hover {
+  background-color: #dbdddf;
+  transition: background 0.2s ease;
+}
+.p-note {
+  background-color: #e2e8f0;
+  padding: 5px;
+  border-radius: 8px;
+  border-right: 5px solid #ecb131;
+  font-size: 15px;
+}
+.footer {
+  background-color: #d3d7da;
+  color: #141313;
+  text-align: center;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+}
+.footer-icon {
+  margin-left: 8px;
+  color: red;
+}
+
+/*تنسيق صفحة حجز السيارات*/
+
+.h1 {
+  text-align: center;
+  color: #7a7b7c;
+}
+.h1 p {
+  font-size: 15px;
+}
+.table3 {
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f9f8f8;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.table3 tr th {
+  background: linear-gradient(to left, #3b82f6, #1e40af);
+  color: #ffffff;
+  padding: 14px 16px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.table3 tr td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+}
+.table3 tr:hover {
+  background-color: #dbdddf;
+  transition: background 0.2s ease;
+}
+tr:has(.check:checked){
+  background-color: #d1e7dd;
+  transition: background-color 0.3s ease;
+}
+.id-cr {
+  color: #227dec;
+}
+.span {
+  color: #10ba37;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+}
+.check {
+  accent-color: #07cd3f;
+}
+.car-details {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 15px;
+  text-align: center;
+}
+.btn-next {
+  background: linear-gradient(150deg, #2c5dbf, #3fa8e9);
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn-next {
+  margin-top: 15px;
+}
+#cont-car {
+  background-color: #ededed;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.img-cars {
+  background-color: #ededed;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 100%;
+  flex-shrink: 0;
+}
+.img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+}
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 25px;
+  flex: 1;
+}
+.dezel {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 150px;
+  height: 50px;
+}
+.dzl-icon {
+  font-size: 18px;
+  background-color: #e8eeeb;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 10px;
+}
+.l {
+  font-size: 15px;
+  white-space: nowrap;
+}
+.p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+#div1 {
+  display: none;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.divs {
+  margin-bottom: 20px;
+}
+.divs label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.divs input {
+  width: 100%;
+  height: 20px;
+  padding: 5px;
+  border: 0.5px solid rgba(65, 64, 63, 0.481);
+  border-radius: 3px;
+  outline: none;
+}
+.btn2 {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
